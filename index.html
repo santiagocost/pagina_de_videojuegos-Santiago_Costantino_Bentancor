@@ -5,27 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El Rincón del Jugador</title>
-    <link rel="stylesheet" href="css/estilo.css" />
     <link rel="shortcut icon" href="../img/75472.png" type="image/x-icon" />
-    <!-- CSS only -->
+    <!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilo.css" />
   </head>
-  <body>
+  <body class="conteiner-fluid">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">El Rincón del Jugador</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pag/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pag/trucos.html">Trucos y Guias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pag/comunidad.html">Comunidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pag/analisis.html">Análisis</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header class="encabezado">
       <div>
         <h1>El Rincón del Jugador</h1>
       </div>
-    </header>
-
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="pag/novedades.html">Novedades</a>
-      <a href="pag/trucos.html">Trucos y Guias</a>
-      <a href="pag/comunidad.html">Comunidad</a>
-      <a href="pag/analisis.html">Analisis</a>
-    </nav>
-    <section class="gow">
-      <h1>God of War Ragnarok</h1>
+    </header> 
+    <section>
+      <h1 class="text-center">God of War Ragnarok</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
         assumenda suscipit consequatur dicta perspiciatis laudantium ipsam
@@ -67,7 +83,7 @@
         fugiat accusamus consequuntur laborum, amet ad dolore? Doloribus
         consectetur perspiciatis quidem hic dolore, sint ut!
       </p>
-      <img src="img/slider5.jpg" />
+      <img src="img/slider5.jpg" class="img-fluid"/> 
     </section>
 
     <div class="itemSeis">
@@ -82,5 +98,8 @@
         <li><a href="">Twitter</a></li>
       </ul>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
