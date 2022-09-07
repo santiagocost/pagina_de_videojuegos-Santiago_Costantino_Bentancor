@@ -1,0 +1,7 @@
+$estilo: (color: blue, tamFuente: 2rem);
+
+.text-center {
+ color: map-get($estilo, color);
+ font-size: map-get($estilo, tamFuente);
+}
+
