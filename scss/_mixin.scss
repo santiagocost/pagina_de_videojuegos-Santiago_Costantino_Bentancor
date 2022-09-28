@@ -1,8 +1,0 @@
-@mixin text-center {
-    color: map-get($estilo, color);
-    font-size: map-get($estilo, tamFuente);
-   }
-
-.text-center2 {
-    @include text-center;
-}

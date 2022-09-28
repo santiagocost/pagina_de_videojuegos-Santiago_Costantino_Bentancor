@@ -1,8 +1,7 @@
-@import "variables";
-@import "maps";
-@import "extend";
-@import "mixin";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+.row, .consolas img {
+  width: 100%;
+}
 
 * {
   margin: 0;
@@ -10,11 +9,11 @@
 }
 
 .body {
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: $colorUno;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #3A2E39;
 }
 
-.row img {
+.row img, .consolas img img {
   width: 100%;
 }
 
@@ -27,34 +26,34 @@
 }
 
 .encabezado {
-  background-color: $colorDos;
+  background-color: #F4D8CD;
   background-position: center;
   height: 30vh;
   width: 100%;
   position: relative;
   opacity: 100%;
   grid-area: header;
-
-  div {
-    height: 5rem;
-    width: 25rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
-  }
+}
+.encabezado div {
+  height: 5rem;
+  width: 25rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
 }
 
 nav {
-  background-color: $colorCuatro;
+  background-color: #EDB183;
   display: flex;
   align-items: center;
   align-content: center;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   grid-area: nav;
@@ -70,12 +69,11 @@ a {
 
 section {
   flex: 10%;
-  background-color: $colorCuatro;
+  background-color: #EDB183;
   padding: 10px;
-
-  img {
-    width: 20rem;
-  }
+}
+section img {
+  width: 20rem;
 }
 
 .laguia img {
@@ -89,10 +87,9 @@ section {
   position: fixed;
   bottom: -50px;
   right: -50px;
-
-  img {
-    height: 50px;
-  }
+}
+.itemSeis img {
+  height: 50px;
 }
 
 ul {
@@ -106,13 +103,12 @@ ul img {
 footer {
   padding-top: 2rem;
   text-align: center;
-  background-color: $colorDos;
+  background-color: #F4D8CD;
   grid-area: footer;
-
-  ul li {
-    display: inline-block;
-    margin: 2rem;
-  }
+}
+footer ul li {
+  display: inline-block;
+  margin: 2rem;
 }
 
 html {
@@ -129,8 +125,7 @@ nav {
 
 section {
   text-align: center;
-
-  img {
-    width: 300px;
-  }
 }
+section img {
+  width: 300px;
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,22 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
-.text-center {
-  color: blue;
-  font-size: 2rem; }
-
 .row, .consolas img {
   width: 100%; }
-
-.text-center2 {
-  color: blue;
-  font-size: 2rem; }
 
 * {
   margin: 0;
   padding: 0; }
 
-body {
+.body {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: bisque; }
+  background-color: #3A2E39; }
 
 .row img, .consolas img img {
   width: 100%; }
@@ -28,7 +20,7 @@ body {
   text-align: center; }
 
 .encabezado {
-  background-color: darksalmon;
+  background-color: #F4D8CD;
   background-position: center;
   height: 30vh;
   width: 100%;
@@ -46,10 +38,10 @@ body {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
-    color: white; }
+    color: black; }
 
 nav {
-  background-color: #333;
+  background-color: #EDB183;
   display: flex;
   align-items: center;
   align-content: center;
@@ -58,7 +50,7 @@ nav {
   grid-area: nav; }
 
 a {
-  color: white;
+  color: black;
   padding: 14px 20px;
   text-decoration: none;
   font-weight: bold;
@@ -66,7 +58,7 @@ a {
 
 section {
   flex: 10%;
-  background-color: bisque;
+  background-color: #EDB183;
   padding: 10px; }
   section img {
     width: 20rem; }
@@ -93,7 +85,7 @@ ul img {
 footer {
   padding-top: 2rem;
   text-align: center;
-  background-color: darksalmon;
+  background-color: #F4D8CD;
   grid-area: footer; }
   footer ul li {
     display: inline-block;
